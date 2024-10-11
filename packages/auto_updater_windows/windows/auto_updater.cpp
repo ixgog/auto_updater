@@ -81,7 +81,8 @@ void AutoUpdater::CheckForUpdates() {
 }
 
 void AutoUpdater::CheckForUpdatesWithoutUI() {
-  win_sparkle_check_update_without_ui();
+  //win_sparkle_check_update_without_ui();
+  win_sparkle_check_update_with_ui_and_install();
   OnWinSparkleEvent("checking-for-update");
 }
 
